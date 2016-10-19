@@ -1,4 +1,4 @@
-package com.lsf.thread;
+package com.lsf.thread.one;
 
 /**
  * Created by shengfeng on 2016/10/19.
@@ -16,7 +16,7 @@ public class ThreadSafe_1 extends Thread {
     public void run() {
         while (count > 0) {
             count--;
-            System.out.println("由" + this.currentThread().getName() + "得到的count=" + count);
+            System.out.println("由" + Thread.currentThread().getName() + "得到的count=" + count);
         }
     }
 }

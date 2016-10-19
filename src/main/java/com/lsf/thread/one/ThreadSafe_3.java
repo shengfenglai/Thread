@@ -1,4 +1,4 @@
-package com.lsf.thread;
+package com.lsf.thread.one;
 
 /**
  * Created by shengfeng on 2016/10/19.isAlive()方法用来判断当前线程石否处于活跃状态

@@ -1,4 +1,4 @@
-package com.lsf.thread;
+package com.lsf.thread.one;
 
 /**
  * Created by shengfeng on 2016/10/19

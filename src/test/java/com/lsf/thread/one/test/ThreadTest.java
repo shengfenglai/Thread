@@ -1,7 +1,8 @@
-package com.lsf.thread.test;
+package com.lsf.thread.one.test;
 
-import com.lsf.thread.*;
 import org.junit.Test;
+
+import com.lsf.thread.one.*;
 
 /**
  * Created by shengfeng on 2016/10/19.

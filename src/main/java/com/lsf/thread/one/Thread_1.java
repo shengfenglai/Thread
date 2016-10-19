@@ -1,4 +1,4 @@
-package com.lsf.thread;
+package com.lsf.thread.one;
 
 /**
  * Created by shengfeng on 2016/10/19
@@ -9,9 +9,9 @@ public class Thread_1 extends Thread {
 
     public void run() {
         try {
-            System.out.println("RUN :" + this.currentThread().getName() + "BEGIN");
+            System.out.println("RUN :" + Thread.currentThread().getName() + "BEGIN");
             Thread.sleep(2000);
-            System.out.println("RUN :" + this.currentThread().getName() + "END");
+            System.out.println("RUN :" + Thread.currentThread().getName() + "END");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
