@@ -5,7 +5,7 @@ package com.lsf.thread.one;
  * sleep()方法的作用是在指定的毫秒数内让“正在执行的线程”休眠，
  * 这个“正在执行的线程”指的是this.currentThread()返回的线程
  */
-public class Thread_1 extends Thread {
+public class Thread_Sleep extends Thread {
 
     public void run() {
         try {
