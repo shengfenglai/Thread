@@ -11,7 +11,7 @@ import org.junit.Test;
 public class HasSafePrivateNumThreadTest {
 
     @Test
-    public void testThreadSafe_1() {
+    public void testHasSafePrivateNumThread() {
         HasSafePrivateNum hspn = new HasSafePrivateNum();
 
         HasSafePrivateNumThreadA threadA = new HasSafePrivateNumThreadA(hspn);

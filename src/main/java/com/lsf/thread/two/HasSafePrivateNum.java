@@ -7,12 +7,12 @@ public class HasSafePrivateNum {
 
     private int num = 0;
 
-    public void addI(String userName) {
+    synchronized  public void addI(String userName) {
         try {
             if ("a".equals(userName)) {
                 num = 100;
                 System.out.println("a set over!");
-                Thread.sleep(2000);
+                Thread.sleep(2);
             } else {
                 num = 200;
                 System.out.println("b set over!");

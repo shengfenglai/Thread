@@ -100,6 +100,7 @@ public class ThreadTest {
 
     }
 
+    @SuppressWarnings({ "static-access", "deprecation" })
     @Test
     public  void testStop() throws InterruptedException {
         Thread_Stop ts = new Thread_Stop();
@@ -110,6 +111,7 @@ public class ThreadTest {
         System.out.println(t.interrupted());
     }
 
+    @SuppressWarnings("deprecation")
     @Test
     public  void testSuspendAndResume() throws InterruptedException {
         Thread_SuspendAndResume tsr = new Thread_SuspendAndResume();
