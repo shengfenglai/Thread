@@ -5,7 +5,7 @@ package com.lsf.thread.two;
  */
 public class ObjectService {
 
-    public void serviceMethod() {
+    public void serviceMethodA() {
         try {
             synchronized (this) {
                 System.out.println("begin time = " + System.currentTimeMillis() + " , thread name: " + Thread.currentThread().getName());
@@ -14,6 +14,13 @@ public class ObjectService {
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+    }
+
+    public void serviceMethodB() {
+        synchronized (this) {
+            System.out.println("begin time = " + System.currentTimeMillis() + " , thread name: " + Thread.currentThread().getName());
+            System.out.println("end time = " + System.currentTimeMillis() + " , thread name: " + Thread.currentThread().getName());
         }
     }
 }

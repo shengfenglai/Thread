@@ -12,6 +12,6 @@ public class ObjectServiceThreadA implements Runnable {
     }
 
     public void run() {
-        objectService.serviceMethod();
+        objectService.serviceMethodA();
     }
 }

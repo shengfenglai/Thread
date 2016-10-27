@@ -12,7 +12,7 @@ public class ObjectServiceThreadB implements Runnable {
     }
 
     public void run() {
-        objectService.serviceMethod();
+        objectService.serviceMethodB();
     }
 
 }
