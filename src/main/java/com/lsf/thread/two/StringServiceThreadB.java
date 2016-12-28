@@ -11,6 +11,7 @@ public class StringServiceThreadB implements Runnable {
         this.stringService = stringService;
     }
 
+    @SuppressWarnings("static-access")
     public void run() {
         stringService.print("AA");
     }
